@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<server description="Demo Server">
+    <featureManager>
+        <feature>jaxrs-2.1</feature>
+    </featureManager>
+
+    <httpEndpoint host="*" httpPort="19080" httpsPort="19443" id="defaultHttpEndpoint"/> 
+    <keyStore password="{xor}MiYsOjwtOis="/>
+</server>
